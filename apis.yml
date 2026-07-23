@@ -1,9 +1,34 @@
 aid: assured
 name: Assured
-description: 'Assured is a company surfaced as a portfolio company of costanoa-ventures, dcm-ventures,
-  iconiq-capital, kindred-ventures, kleiner-perkins and added to the API Evangelist network as a stub
-  for enrichment. Sector: insurtech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Assured is an AI platform for end-to-end property and casualty (P&C) insurance
+  claims processing, positioning itself as the most widely deployed AI in P&C and
+  processing tens of millions of claims annually. Its modular, interconnected
+  products span the claims lifecycle: FNOL (First Notice of Loss) digital intake,
+  Voice AI telephonic intake, First Contact document gathering, Service Assignment
+  contractor scheduling, omnichannel Messaging, the Emma agentic claim-analysis
+  assistant, the Sidekick telephonic FNOL assistant for adjusters, Fraud Detection,
+  and CAT catastrophe triage. The platform is model-agnostic (working across
+  multiple frontier AI providers), with claims-specific safety controls,
+  explainability, human-in-the-loop workflows, and enterprise-grade monitoring and
+  guardrails. Assured serves personal and commercial auto, homeowners, commercial
+  property, and workers' compensation lines. It is an enterprise, sales-led product
+  and does not publish a public developer API, OpenAPI, or self-serve documentation.
+  Backed by Costanoa Ventures, DCM Ventures, ICONIQ Capital, Kindred Ventures, and
+  Kleiner Perkins.
 url: https://raw.githubusercontent.com/api-evangelist/assured/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.assured.com/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -16,10 +41,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Insurtech
+- Insurance
+- Claims
+- Artificial Intelligence
+- Property and Casualty
+- Claims Automation
+- FNOL
+- Fraud Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +61,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.assured.com
+- type: Platform
+  url: https://www.assured.com/platform
+- type: About
+  url: https://www.assured.com/about
+- type: Blog
+  url: https://www.assured.com/blog
+- type: Careers
+  url: https://www.assured.com/careers
+- type: Security
+  url: https://www.assured.com/disclosure
+- type: TrustCenter
+  url: security/assured-trust-center.yml
+- type: Compliance
+  url: https://www.assured.com/security
+- type: VulnerabilityDisclosure
+  url: security/assured-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/assured-domain-security.yml
+- type: PrivacyPolicy
+  url: https://www.assured.com/privacy
+- type: TermsOfService
+  url: https://www.assured.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
